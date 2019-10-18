@@ -1,0 +1,132 @@
+*{
+	font-family: 'Big Shoulders Text', cursive;
+}
+
+.logo{
+	font-family: 'Lobster', cursive;
+}
+
+#head{
+	background: url('../img/mulher-morena-do-cabelo-preto-1920x1080.jpg') no-repeat;
+	background-size: cover;
+	background-position: 80%;
+	min-height: 400px;
+
+}
+
+#head h1{
+	color: white;
+	padding-left: 10%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-shadow: 0.1em 0.1em 0.2em #333;
+}
+#head h3{
+	color: white;
+	padding-left: 10%;
+	text-shadow: 0.1em 0.1em 0.2em #333;
+
+}
+
+#head button{
+	margin-left: 10%;
+	border-radius: 5px;
+	background-color: #666;
+	border: 2px solid #666;
+	padding: 2px 5px;
+	margin-top: 10px;
+}
+#head button:hover{
+	border-color: #FFF;
+	color: #FFF;
+	background-color: transparent;
+}
+
+#back1{
+	background: url('../img/img1.jpg') no-repeat;
+	background-size: cover;
+}
+.back1 h4{
+padding-top: 150px;
+color: white;
+text-shadow: 0.1em 0.1em 0.2em #333;
+}
+
+.back1 p{
+	color: white;
+	text-shadow: 0.1em 0.1em 0.2em #333;
+
+}
+
+#back2{
+	background: url('../img/img2.jpg') no-repeat;
+	background-size: cover;
+}
+
+#back3{
+	background: url('../img/img3.jpg') no-repeat;
+	background-size: cover;
+}
+
+.carousel-item{
+	min-height: 400px;
+	text-align: center;
+}
+
+.carousel-item h2{
+	padding: 10%;
+
+
+
+}
+.carousel-indicators li{
+	background-color: #ddd;
+}
+
+.carousel-indicators .active{
+    background-color: #666;
+}
+
+#exp{
+	color: #FFF;
+	background-color: #666;
+	text-align: center;
+	padding: 5%;
+	max-height: 300px;
+}
+
+#exp button{
+	background-color: #666;
+	color: #FFF;
+	border: 2px solid #FFF;
+}
+#exp button:hover{
+	background-color: #DDD;
+	color: #666;
+}
+
+#eyes{
+	background: url('../img/olhos.jpg');
+	background-size: cover;
+	background-position: 80%;
+	min-height: 200px;
+}
+
+#footer{
+	background-color: black;
+	color: white;
+	
+	text-align: center;
+
+}
+
+.foot{
+	padding-top: 50px;
+}
+
+
+
+.icones{
+	margin: 10px;
+	margin-bottom: 50px;
+}
