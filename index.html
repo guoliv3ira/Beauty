@@ -18,7 +18,8 @@
 <header>
 	<div class="container-fluid" id="head">
 		<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-dark ">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container">
   <a class="navbar-brand" id="logo" href="#">Beaulty</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
@@ -29,27 +30,29 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Novidades</a>
+        <a class="nav-link" href="#principal">Serviços</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Serviços</a>
+        <a class="nav-link" href="#news">Novidades</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#">Galeria Antes/Depois</a>
+        <a class="nav-link " href="#carouselindicator">Depoimentos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#">Contato</a>
+        <a class="nav-link " href="#footer">Contato</a>
       </li>
     </ul>
   </div>
+</div>
 </nav>
 </div>
+<div id="principal">
 <h1>Serviços</h1>
 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
 	<button type="button" class="btn btn-secondary">Contate Agora</button>
 </div>
 </header>
-<div class="container-fluid">
+<div class="container-fluid" id="news">
 	<div class="row">
 		<div class="col-md-4 back1" id="back1">
 			<h4>PREENCHIMENTOS DÉRMICOS</h4>
@@ -73,7 +76,7 @@
     <li data-target="#carouselindicator" data-slide-to="1"></li>
     <li data-target="#carouselindicator" data-slide-to="2"></li>
   </ol>
-  <div class="carousel-inner">
+  <div class="carousel-inner" id="depo">
     <div class="carousel-item active">
       <h2>"Donec id malesuada neque. Praesent non ullamcorper ipsum. Vestibulum cursus ante et ligula blandit laoreet. Curabitur id pellentesque mauris, ut vulputate lorem. Duis quis purus pretium ante rhoncus iaculis vitae at sapien."</h2>
     </div>
@@ -127,5 +130,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
